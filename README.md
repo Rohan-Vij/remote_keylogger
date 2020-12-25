@@ -16,7 +16,7 @@ The only module required so far (that is not part of the default Python stack) i
 6. You're done! Try typing a few letters on the target machine and see if the `logs.log` file on the server also updates!
 
 ### But why?
-Creating a keylogger, or any malicious program, on Python is not optimal. Since Python is an interpreted language, your target also must have the Python interpreter installed. If you *really* wanted to make a viable keylogger, you would program it in a language like C++ or Java, as they are compilied languages.
+Creating a keylogger, or any malicious program, on Python is not optimal. Since Python is an interpreted language, your target also must have the Python interpreter installed. If you *really* wanted to make a viable keylogger, you would program it in a language like C++ or Java, as they are compiled languages.
 This project was just a fun utilization of the `pynput`, `socket`, and `logging` packages.
 
 ### To do
